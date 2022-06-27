@@ -6,10 +6,12 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "@quasar/extras": "1.14.1",
+    "nuxt": "npm:nuxt3@latest",
+    "quasar": "2.7.3"
   },
-  "dependencies": {
-    "@quasar/extras": "^1.12.2",
-    "quasar": "^2.4.2"
+  "volta": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
   }
 }
